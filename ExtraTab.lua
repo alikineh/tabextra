@@ -11,7 +11,7 @@ local notify = lgi.require('Notify')
 notify.init ("Telegram updates")
 require('./libraries/lua-redis')
 redis =  dofile("./libraries/redis.lua")
-BOTID = redis:get('BOT-ID') or 0
+BOTID = redis:get('BOT-ID') or 464153448
 http = require "socket.http"
 https = require "ssl.https"
 require("FrameWork")
